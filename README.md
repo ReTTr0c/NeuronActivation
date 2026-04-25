@@ -1,3 +1,10 @@
+A neural circuit simulator made with NeutralinoJS. Made for Hack Club Flavortown YSWS.
+THe "NeuronActivation" folder contains everything to run the app on x64 Windows. Just download that folder if you want to run it.
+
+-----------------------------------------------------------------------------------
+
+NeutralinoJS README:
+
 # neutralinojs-minimal
 
 The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/getting-started/using-frontend-libraries).
