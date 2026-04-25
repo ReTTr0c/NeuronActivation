@@ -1,0 +1,96 @@
+body {
+    background-color: rgba(134, 128, 128, 0.986);
+}
+
+#neutralinoapp {
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+#neutralinoapp h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+#neutralinoapp > div {
+    font-size: 16px;
+    font-weight: normal;
+}
+#maintitle{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pillar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.pillar {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+
+#selectNeuron{
+    height:67px;
+    width:70px;
+    color: white; 
+    font-weight: bold;
+}
+
+#selectSynapseLight{
+  height: 67px;
+  width: 70px;
+  color: white; 
+  font-weight: bold;
+}
+
+#selectSynapseMid{
+  height: 67px;
+  width: 70px;
+  color: white; 
+  font-weight: bold;
+}
+#selectSynapseHeavy{
+  height: 67px;
+  width: 70px;
+  color: white; 
+  font-weight: bold;
+}
+
+#selectStimulate{
+  height: 67px;
+  width: 70px;
+  color: white; 
+  font-weight: bold;
+}
+
+#HeaderStyle {
+    color: rgb(85, 85, 85);
+    text-align: right;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+selectButton {
+  background-color: rgb(29, 207, 89);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+

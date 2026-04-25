@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeuronActivation</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <h1 id="maintitle">NeuronActivation - Neural circuit simulator</h1>
+     <span id="HeaderStyle">GitHub: ReTTr0c</span>   
+    <div class="pillar-container" id="maincanvasdiv">
+       <div class="pillar">
+      <canvas id="maincanvas" width="700" height="500" style="border:2px solid #000000;"></canvas>
+      <script type="module" src="mainscript.js"></script>  
+      </div>
+      <div class="pillar">
+      <button type="button" id="startSim">Start</button>
+      <br>
+      <button type="button" id="debugButton">RxData</button>
+      <br>
+      <button style="background: url(N0.png)" type="button" id="selectNeuron">Neuron</button>
+      <br>
+      <!--Inline CSS because it doesn't work in styles.css for some reason-->
+      <!--Used AI to get these these buttons in a row-->
+      <div style="display: inline-flex; gap: 4px;">
+        <button style="background: url(nSynapse.png);background-position:center 150px; background-size: 80px 80px;" type="button" id="selectSynapseLight">Synapse Light</button>
+        <button style="background: url(nSynapse.png);background-position:center 150px; background-size: 80px 80px;" type="button" id="selectSynapseMid">Synapse Mid</button>
+        <button style="background: url(nSynapse.png);background-position:center 150px; background-size: 80px 80px;" type="button" id="selectSynapseHeavy">Synapse Heavy</button>
+      </div>
+      <br>
+      <button style="background: url(stim.png);background-position:center 150px; background-size: 80px 80px; color:black" type="button" id="selectStimulate">Stimulate</button>
+      <br>
+      <button type="button" id="clearCanvas">Reset</button>
+      <br>
+      <div class="slidecontainer">
+      <p id="timeDisplay">Simulation step timeout: 1000ms</p>
+        <input id="setTime" type="range" min="200" max="5000" step="100"  value="1000">
+        <output id="timeVal"></output>
+      <p id="refractoryDisplay">Refractory period: 3 steps</p>
+        <input id="setRef" type="range" min="0" max="5" step="1"  value="3">
+        <output id="refVal"></output>
+        </div>
+        <p>Neuron color-voltage progression: Green - Light Blue - Dark Blue - Orange - Red</p>
+      </div>
+      </div>
+
+      <script type="module" src="mainscript.js"></script>  
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+    <script src="/js/neutralino.js"></script>
+    <!-- Your app's source files -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
