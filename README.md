@@ -1,6 +1,4 @@
 A neural circuit simulator made with NeutralinoJS. Made for Hack Club Flavortown YSWS.
-THe "NeuronActivation" folder contains everything to run the app on x64 Windows. 
-Or just download the zip, that is easier.
 
 -----------------------------------------------------------------------------------
 
