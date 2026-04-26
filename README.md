@@ -1,5 +1,11 @@
 A neural circuit simulator made with NeutralinoJS. Made for Hack Club Flavortown.
 
+*Installation*:
+--------------------------------------------------------------------------------------------------
+- Unzip the .tar or .rar into a folder.
+- Run NeuronActivation.exe
+(Keep all components and binaries in the same directory)
+
 *Guide*:
 ---------------------------------------------------------------------------------------------------
   - Open NeutronActivation.exe (close the terminal if needed) and select the Neuron button.
