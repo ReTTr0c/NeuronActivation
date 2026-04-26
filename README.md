@@ -43,5 +43,5 @@ Technical details:
                           the base details)
 - C++ -> JS IPC via NeutralinoJS API (stdout)
 
-Only tested on 64-bit Windows. May or may not work on Linux.
+Only tested on 64-bit Windows; May or may not work on Linux.
 Under MIT license.
