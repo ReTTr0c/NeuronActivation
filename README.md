@@ -22,6 +22,7 @@ A neural circuit simulator made with NeutralinoJS. Made for Hack Club Flavortown
   - Use the top slider to set the timeout between simulation steps. 1 step means 1 round of firings.
   - Use the bottom slider to set refractory period of the neurons. This adjusts for how many simulation
   steps a neuron can't fire again after having fired once.
+    - Note: The slider values can only be changed before starting the simulation. 
   - Click on Start to run the C++ simulation. As it runs, you will see the colors of the neurons changing.
   That shows the current voltage of the neuron:
     - Green: 0-3 Voltage units
@@ -32,6 +33,7 @@ A neural circuit simulator made with NeutralinoJS. Made for Hack Club Flavortown
   - Clicking on Stop will terminate the simulation process.
   - There is a reset button, which closes and reopens the app, but simply reloading the page with
   Ctrl+r works just as well (since it's WebView)
+  - The DataRx button outputs debug data to the console. Not needed for regular operation.
 
 *'Realism' features*
 ----------------------------------------------------------------------------------------------------
