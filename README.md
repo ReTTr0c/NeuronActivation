@@ -48,7 +48,8 @@ Technical details:
 - JS -> C++ IPC via JSON (The JS modifies the JSON each time the Start button is clicked, giving the C++
                           the base details)
 - C++ -> JS IPC via NeutralinoJS API (stdout)
+------------------------------------------------------------------------------------------------------
+Only tested on 64-bit Windows; May or may not work on Linux.
 
-Only tested on 64-bit Windows; May or may not work on Linux.\n
-**As of release v1.0.1, any system with a name containing non-English characters will break the simulation**\n
+**As of release v1.0.1, any system with a name containing non-English characters will break the simulation**
 Under MIT license.
