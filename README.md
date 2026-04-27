@@ -52,4 +52,5 @@ Technical details:
 Only tested on 64-bit Windows; May or may not work on Linux.
 
 **As of release v1.0.1, any system with a name containing non-English characters will break the simulation**
+
 Under MIT license.
