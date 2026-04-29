@@ -11,12 +11,7 @@
 #include <filesystem>
 #include <iomanip>
 
-/*
-TODO:
-* Prevent JS to tying into same neuron
-* Limit Neuron Receivestim precision 
-* Make C++ .exe JSON path specified
-*/
+//Note to anyone recompiling this Get rapidjson from github
 
 //Github: ReTTr0c
 //This is some dogwater code but I do electronics, not coding so forgive me
