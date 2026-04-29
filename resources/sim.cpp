@@ -319,5 +319,3 @@ for(int i = 0; i < nCount; i++){
     ////////////////////////////////////////////////////////////////////////////////////
 }
 
-//"C:\\Users\\totht\\Desktop\\C++_projects\\NeuronActivation\\resources\\simdata.json"
-
