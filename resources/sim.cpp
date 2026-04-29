@@ -49,6 +49,8 @@ class neurons{
         bool refractory = false;
         std::vector<synapses> synapse;
 };
+
+//I dont think I ended up using this class:
 class stimuli{
     public:
         std::string type;
