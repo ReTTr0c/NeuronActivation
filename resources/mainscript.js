@@ -502,9 +502,3 @@ else if(simRun == false){
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-
-/*
-Hello, sorry if this has already been answered (I just joined the server), but what do 
-I need to modify to make a NeutralinoJS window not reload every time there is a change?
-Since I have a JSON file that changes quite frequently so reloading is pre
-*/
